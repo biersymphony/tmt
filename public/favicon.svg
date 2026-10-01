@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Main large gear -->
+  <g transform="translate(10, 14)">
+    <!-- Gear teeth (outer ring with teeth) -->
+    <circle cx="22" cy="22" r="20" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+    <!-- Gear teeth cutouts -->
+    <rect x="19" y="0" width="6" height="6" rx="1" fill="#9ca3af" stroke="#6b7280" stroke-width="0.8"/>
+    <rect x="19" y="38" width="6" height="6" rx="1" fill="#9ca3af" stroke="#6b7280" stroke-width="0.8"/>
+    <rect x="0" y="19" width="6" height="6" rx="1" fill="#9ca3af" stroke="#6b7280" stroke-width="0.8"/>
+    <rect x="38" y="19" width="6" height="6" rx="1" fill="#9ca3af" stroke="#6b7280" stroke-width="0.8"/>
+    <rect x="4.5" y="5.5" width="6" height="6" rx="1" fill="#9ca3af" stroke="#6b7280" stroke-width="0.8" transform="rotate(45 7.5 8.5)"/>
+    <rect x="33.5" y="5.5" width="6" height="6" rx="1" fill="#9ca3af" stroke="#6b7280" stroke-width="0.8" transform="rotate(45 36.5 8.5)"/>
+    <rect x="4.5" y="32.5" width="6" height="6" rx="1" fill="#9ca3af" stroke="#6b7280" stroke-width="0.8" transform="rotate(45 7.5 35.5)"/>
+    <rect x="33.5" y="32.5" width="6" height="6" rx="1" fill="#9ca3af" stroke="#6b7280" stroke-width="0.8" transform="rotate(45 36.5 35.5)"/>
+    <!-- Red ring -->
+    <circle cx="22" cy="22" r="15" fill="#cc2222" stroke="#aa1111" stroke-width="1"/>
+    <!-- White/cream inner ring -->
+    <circle cx="22" cy="22" r="11" fill="#f5f0e8"/>
+    <!-- Blue T letter -->
+    <text x="22" y="28" text-anchor="middle" font-family="serif" font-weight="900" font-size="14" fill="#1a3a8f">TM</text>
+  </g>
+  <!-- Small gear top right -->
+  <g transform="translate(42, 6)">
+    <circle cx="10" cy="10" r="9" fill="#3b82f6" stroke="#2563eb" stroke-width="0.8"/>
+    <circle cx="10" cy="10" r="5" fill="white"/>
+    <rect x="8" y="0" width="4" height="4" rx="0.5" fill="#3b82f6"/>
+    <rect x="8" y="16" width="4" height="4" rx="0.5" fill="#3b82f6"/>
+    <rect x="0" y="8" width="4" height="4" rx="0.5" fill="#3b82f6"/>
+    <rect x="16" y="8" width="4" height="4" rx="0.5" fill="#3b82f6"/>
+  </g>
+  <!-- Small gear right middle (orange/gold) -->
+  <g transform="translate(50, 28)">
+    <path d="M7 0 A7 7 0 0 1 7 14 A7 7 0 0 1 7 0" fill="#e7a93b" stroke="#c8911f" stroke-width="0.8"/>
+    <circle cx="7" cy="7" r="3.5" fill="white"/>
+  </g>
+</svg>

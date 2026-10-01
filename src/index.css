@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #1a1a2e;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; }
+
+::selection { background: #e7a93b; color: #0d1f3c; }
+button, a { -webkit-tap-highlight-color: transparent; }
+img { max-width: 100%; display: block; }
+
+.tmt-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.tmt-wrap {
+  width: min(1320px, calc(100% - 48px));
+  margin-inline: auto;
+}
+@media (max-width: 640px) {
+  .tmt-wrap { width: min(calc(100% - 32px), 1320px); }
+}
+
+.tmt-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #e7a93b;
+  margin-bottom: 18px;
+}
+.tmt-label::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 2px;
+  background: #e7a93b;
+  flex-shrink: 0;
+}
+
+.btn-fill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #e7a93b;
+  color: #0d1f3c;
+  padding: 14px 28px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.22s;
+  cursor: pointer;
+  border: none;
+}
+.btn-fill:hover { background: #d4922a; }
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1.5px solid #e7a93b;
+  color: #e7a93b;
+  padding: 14px 28px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.22s, color 0.22s;
+  background: transparent;
+  cursor: pointer;
+}
+.btn-outline:hover { background: #e7a93b; color: #0d1f3c; }
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1.5px solid rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.8);
+  padding: 14px 28px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color 0.22s, color 0.22s;
+}
+.btn-ghost:hover { border-color: #e7a93b; color: #e7a93b; }
