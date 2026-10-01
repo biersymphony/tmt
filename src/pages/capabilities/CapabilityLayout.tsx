@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { type ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Phone, Mail } from "lucide-react";
 import Navbar from "../../components/Navbar/Navbar";
