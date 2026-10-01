@@ -105,12 +105,7 @@ export default function Navbar() {
           <img
             src="/images/logo.png"
             alt="Trinethra Machine Tools"
-            style={{
-              height: 52,
-              width: "auto",
-              objectFit: "contain",
-              display: "block",
-            }}
+            className="h-10 lg:h-[50px] w-auto object-contain block"
           />
         </Link>
 
@@ -296,9 +291,11 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop CTA */}
-        <a href="/#contact" className="btn-fill hidden lg:inline-flex">
-          Get a Quote <ArrowUpRight size={14} />
-        </a>
+        <div className="hidden lg:block">
+          <a href="/#contact" className="btn-fill">
+            Get a Quote <ArrowUpRight size={14} />
+          </a>
+        </div>
 
         {/* Mobile Hamburger */}
         <button
