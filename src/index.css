@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { 
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 
 body {
   margin: 0;
+  overflow-x: hidden;
   background: #ffffff;
   color: #1a1a2e;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
